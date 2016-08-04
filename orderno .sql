@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主機: 127.0.0.1
--- 產生時間： 2016-08-03 15:16:49
+-- 產生時間： 2016-08-04 14:36:13
 -- 伺服器版本: 10.1.13-MariaDB
 -- PHP 版本： 5.6.23
 
@@ -42,10 +42,16 @@ CREATE TABLE `orderno` (
 --
 
 INSERT INTO `orderno` (`id`, `adminid`, `userid`, `productid`, `orderNum`, `orderYear`, `orderMonth`, `orderDay`) VALUES
-(20, 2, '6', '3', '1', '2016', '8', '3'),
-(21, 2, '6', '4', '1', '2016', '8', '3'),
-(22, 3, '7', '7', '3', '2016', '8', '3'),
-(23, 13, '8', '1', '2', '2016', '8', '3');
+(53, 14, '1', '1', '2', '2016', '8', '4'),
+(54, 14, '1', '2', '2', '2016', '8', '4'),
+(55, 13, '2', '3', '3', '2016', '8', '4'),
+(56, 13, '2', '4', '1', '2016', '8', '4'),
+(57, 14, '3', '1', '1', '2016', '8', '4'),
+(58, 3, '4', '2', '2', '2016', '8', '4'),
+(59, 3, '5', '1', '30', '2016', '8', '4'),
+(60, 3, '5', '1', '30', '2016', '8', '4'),
+(61, 3, '5', '1', '3', '2016', '8', '4'),
+(62, 3, '5', '2', '30', '2016', '8', '4');
 
 --
 -- 已匯出資料表的索引
@@ -65,7 +71,7 @@ ALTER TABLE `orderno`
 -- 使用資料表 AUTO_INCREMENT `orderno`
 --
 ALTER TABLE `orderno`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
